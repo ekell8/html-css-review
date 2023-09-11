@@ -2,12 +2,28 @@
     box-sizing: border-box;
     font-family: 'Wix Madefor Display', sans-serif;
     font-family: 'Nunito', sans-serif;
-    font-weight: normal;
-    font-size: 1rem;
-    margin: 0;
 }
 
 h1 {
     font-family: 'Wix Madefor Display', sans-serif;
-    color: #DEC9E8;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    font-family: 'Nunito', sans-serif;
 }
