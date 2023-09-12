@@ -5,97 +5,116 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML & CSS Review</title>
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Wix+Madefor+Display:wght@800&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-
-  Scoopalicious
-  <nav>
-    <ul>Flavours</ul>
-    <ul>Locations</ul>
-    <ul>Shop online</ul>
-  </nav>
-
-  <!-- In this hero section you will use the provided ice-cream-cones.jpg as a background image behind the word Scoopalicious. This would be the only section you will want to give a height. -->
-  <h1>Scoopalicious</h1>
- 
-  <header>
-    <h1>Welcome to Scoopalicious!</h1>
-    
-      <p>Serving the finest vegan ice cream in town, we specialize in crafting dairy-free delights that will send your taste buds into overdrive. From the moment you step inside our cozy urban shop, you'll know you're in for a treat!</p>
-    
+  <header id="header">
+    <div class="wrapper">
+     <span id="company-name">Scoopalicious</span>
+      <nav>
+        <ul>
+          <li><a href="#">Flavours</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Shop online</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main role="main">
-    <h1>Top 5 Fan Favourites</h1>
+  <!-- In this hero section you will use the provided ice-cream-cones.jpg as a background image behind the word Scoopalicious. This would be the only section you will want to give a height. -->
+  <main>
+    <section id="hero-banner">
+      <div class="wrapper">
+       <h1>Scoopalicious</h1>
+      </div>
+    </section>
 
-    <h2>Choco-Obsession</h2>
-    
-    <p>A rich, velvety dark chocolate ice cream made from a blend of organic cocoa and creamy coconut cream.</p>
+    <section id="intro">
+      <div class="wrapper">
+        <h2>Welcome to Scoopalicious!</h2>
+      
+        <p>Serving the finest vegan ice cream in town, we specialize in crafting dairy-free delights that will send your taste buds into overdrive. From the moment you step inside our cozy urban shop, you'll know you're in for a treat!</p>
+      </div>
+    </section>
+
+    <section id="fan fave">
+      <div class="wrapper">
+        <h2>Top 5 Fan Favourites</h2>
+
+        <ol>
+        <li>
+          <h3>Choco-Obsession</h3>
+          <p>A rich, velvety dark chocolate ice cream made from a blend of organic cocoa and creamy coconut cream.</p>
+          </li>
 
 
-
-    <h2>Very Berry Blast</h2>
-    
-    <p>A harmonious explosion of raspberry, blackberry, and blueberry swirls in a smooth almond base.</p>
-
-
-
-    <h2>Cookie Crumble Craze</h2>
-    
-    <p>Scrummy cookie crumbles meet the creaminess of cashew-based vanilla ice cream.</p>
+          <li>
+            <h3>Very Berry Blast</h3>
+            <p>A harmonious explosion of raspberry, blackberry, and blueberry swirls in a smooth almond base.</p>
+          </li>
 
 
+          <li>
+            <h3>Cookie Crumble Craze</h3>
+            <p>Scrummy cookie crumbles meet the creaminess of cashew-based vanilla ice cream.</p>
+          </li>
 
-    <h2>Peanut Butter Paradise</h2>
-    
-    <p>Luscious peanut butter ribbons swirled throughout a silky oat milk ice cream.</p>
+          <li>
+            <h3>Peanut Butter Paradise</h3>
+            <p>Luscious peanut butter ribbons swirled throughout a silky oat milk ice cream.</p>
+          </li>
 
+          <li>
+            <h3>Mango Tango Sorbet</h3>
+            <p>A zesty dance of mango and lime, perfect for a refreshing treat on a hot summer day.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
 
+    <section id="team">
+      <div class="wrapper">
+        <h2>Meet Our Team</h2>
+        <p>We're passionate about ice cream, and our dedicated team of flavour wizards works diligently to create and perfect the most delectable vegan desserts.</p>
 
-    <h2>Mango Tango Sorbet</h2>
-    
-    A zesty dance of mango and lime, perfect for a refreshing treat on a hot summer day.
+        <div class="team-grid">
+          <article>
+            <img src="images/sophia-lee.jpg" alt="">
+            <h3>Sophia Lee</h3>
+            <p>Founder & Flavour Guru</p>
+          </article>
+
+          <article>
+            <img src="images/henry-chen.jpg" alt="">
+            <h3>Henry Chen</h3>
+            <p>Master Scooper</p>
+          </article>
+
+          <article>
+            <img src="images/olivia-parks.jpg" alt="">
+            <h3>Olivia Parks</h3>
+            <p>Vegan Dessert Chef</p>
+          </article>
+
+          <article>
+            <img src="images/elijah-taylor.jpg" alt="">
+            <h3>Elijah Taylor</h3>
+            <p>Flavour Innovator</p>
+          </article>
+       </div>
+    </section>
+
   </main>
 
-
-  <h1>Meet Our Team</h1>
-
-  <p>We're passionate about ice cream, and our dedicated team of flavour wizards works diligently to create and perfect the most delectable vegan desserts.</p>
-
-  
-  
-  <!-- Display the image: sophia-lee.jpg -->
-  <h3>SOPHIA LEE</h3>
-  <p>Founder & Flavour Guru</p>
-
-
-  <!-- Display the image: henry-chen.jpg -->
-<h3>HENRY CHEN</h3>
-  <p>Master Scooper</p>
-
-  
-  <!-- Display the image: olivia-parks.jpg -->
-  <h3>OLIVIA PARKS</h3>
-  <p>Vegan Dessert Chef</p>
-
-  
-  <!-- Display the image: elijah-taylor.jpg -->
-  <h3>ELIJAH TAYLOR</h3>
-  <p>Flavour Innovator</p>
-
-
-
   <footer>
-    All rights reserved © 2023 Scoopalicious
+    <div class="wrapper">
+     <small>All rights reserved © 2023 Scoopalicious</small>
+    </div>
   </footer>
-
 
   
 </body>
