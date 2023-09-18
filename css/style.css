@@ -11,8 +11,8 @@ body {
 
 .wrapper {
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2em;
+    margin: auto;
+    padding: 0 1em;
 }
 
 /* Headings */
@@ -25,11 +25,12 @@ body {
 #intro,
 #fan-fave,
 #team {
-    padding: 4em 0;
+    padding: 5em 0;
 }
 
 #header {
     background-color: black;
+
 }
 
 nav ul {
@@ -49,10 +50,50 @@ nav ul li a:focus {
 }
 
 #hero-banner {
-    height: 60vh;
+    height: 70vh;
     background-color: #725185;
     background-image: url(../images/ice-cream-cones.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
+    text-align: center;
+    font-family: 'Wix Madefor Display', sans-serif;
+    color: #fff;
+    font-size: 3em;
+    margin: auto;
+    padding: 200px;
+}
+
+h1 {
+    filter: drop-shadow(8px 5px 13px #333333);
+}
+
+#intro {
+    background-color: #6d52af;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 2em;
+}
+
+#fan-fave {
+    background-color: #000;
+    color: #dec9e9;
+}
+
+#fan-fave li {
+    list-style-type: none;
+}
+
+#team {
+    background-color: #6d52af;
+    color: #fff;
+    text-align: center;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
 }
